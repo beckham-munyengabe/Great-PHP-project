@@ -1,5 +1,6 @@
 <?php
 
+
 include 'db_connection.php';
 
 $delete_id=$_GET['delete_id'];

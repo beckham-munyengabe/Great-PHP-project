@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -529,10 +530,10 @@
             </div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="dashboard.php" class="active"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                    <li><a href="dashboard.php" ><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
                     <li><a href="member_report.php"><i class="fas fa-users"></i> Members</a></li>
                     <li><a href="activitys_report.php"><i class="fas fa-calendar-alt"></i> Activity</a></li>
-                    <li><a href="leaders_report.php"><i class="fas fa-money-bill-wave"></i> Leaders</a></li>
+                    <li><a href="leaders_report.php" class="active"><i class="fas fa-money-bill-wave"></i> Leaders</a></li>
                     <li><a href="logout.php"><i class="fas fa-cog"></i> Logout</a></li>
                 </ul>
             </nav>
@@ -553,8 +554,9 @@
             </header>
 
             <?php
-            // Start session to access messages
-            // session_start(); // Uncomment this if not started elsewhere
+            //Start session to access messages
+        
+           
 
             // Display success message if set in session
             $dashboard_message = '';

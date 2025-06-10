@@ -8,6 +8,8 @@
 </head>
 <body class="bg-[#34495e] text-gray-200 font-sans">
 <?php
+
+
     // It's good practice to include PHP files at the top
     include 'db_connection.php';
 

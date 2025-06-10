@@ -2,6 +2,7 @@
 <?php
 include 'db_connection.php';
 
+
 // receive data from form.....
 $leaderId=$_POST['leaderId'];
 $firstname=$_POST['firstname'];

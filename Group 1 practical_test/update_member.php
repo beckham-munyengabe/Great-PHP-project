@@ -21,7 +21,7 @@
 ?>
     <form class="bg-white w-[90%] md:w-[60%] lg:w-[40%] gap-4 mt-16 p-8 flex flex-col rounded-lg mx-auto shadow-2xl" action="./update_members.php" method="POST">
         
-        <h1 class="text-3xl font-bold text-gray-800 mb-4 text-green-700">Edit Leader</h1>
+        <h1 class="text-3xl font-bold text-gray-800 mb-4 text-green-700">Edit Member</h1>
         
         <input type="hidden" name="memberId" value='<?php echo htmlspecialchars($record['memberId']); ?>'>
         

@@ -387,8 +387,8 @@
 
             <?php
             // Start session to access messages
-            // session_start(); // Uncomment this if not started elsewhere
-
+            //  session_start(); // Uncomment this if not started elsewhere
+            
             // Display success message if set in session
             $dashboard_message = '';
             if (isset($_SESSION['action_success_message'])) {
@@ -450,13 +450,7 @@
                 }
                 ?>
                 
-                <div class="kpi-card">
-                    <div class="kpi-icon"><i class="fas fa-users"></i></div> <div class="kpi-details" data-registered="2023-10-24T14:30:00Z" id="user_info">
-                        <span class="kpi-value"><?php echo $select_row?></span>
-                        <span class="kpi-title">Total Users</span>
-                        <span class="kpi-trend">Active Users</span>
-                    </div>
-                </div>
+                
 
                 <div class="kpi-card">
                     <div class="kpi-icon"><i class="fas fa-users"></i></div>
